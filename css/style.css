@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Arima', cursive;
+  font-weight: bold;
+  font-size: large;
+  background: linear-gradient(to right, white 0%, #dbdbdb 42%, #d1d1d1 51%, #fefefe 100%); }
+
+.bg-beige {
+  background-color: #D0E8E1; }
+
+.img-carousel {
+  width: 802px;
+  height: 525px;
+  margin-left: 280px; }
+
+.card img {
+  width: 255px;
+  height: 200px; }
+
+.lista li {
+  list-style-type: none; }
+
+.bi-instagram {
+  color: #cc2366; }
+
+.bi-whatsapp {
+  color: #0dc70d; }
+
+.btn-whatsapp {
+  display: block;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  transition: height 2s, width 1s; }
+  .btn-whatsapp:hover {
+    width: 100px;
+    height: 100px; }
+
+footer {
+  background-color: #B1D9CD;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly; }
+  footer ul li {
+    list-style-type: none; }
+    footer ul li a {
+      text-decoration: none;
+      color: #000000;
+      font-size: medium;
+      white-space: 400px;
+      display: flex;
+      flex-direction: column; }
+
+.footer-redes {
+  text-align: center;
+  font-size: medium;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 200px; }
+
+.logo-redes {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px; }
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+/* styles quienes somos */
+.parrafos-qs {
+  padding: 30px; }
+
+/* Styles medios de pago */
+.title-mp {
+  margin-top: 100px;
+  margin-bottom: 50px; }
+
+.imagen-mp {
+  margin-top: 50px;
+  border-radius: 10px; }
+
+@media screen and (max-width: 768px) and (min-width: 500px) {
+  .bg-beige {
+    background-color: #D0E8E1; }
+  .img-carousel {
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 450px;
+    height: 350px; }
+  .footer {
+    background-color: #B1D9CD; } }
+
+@media screen and (max-width: 500px) {
+  .bg-beige {
+    background-color: #9eb5ae; }
+  .img-carousel {
+    margin-top: 30px;
+    margin-left: 5%;
+    width: 400px;
+    height: 350px; }
+  #marcas img {
+    width: 50px;
+    height: 50px; }
+  .imagen-mp {
+    width: 280px;
+    height: 150; }
+  .logo-redes {
+    font-size: 15px; }
+  .footer {
+    background-color: #96b9ae; }
+  .btn-outline-secondary {
+    margin-left: 30px; } }
