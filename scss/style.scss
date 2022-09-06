@@ -88,10 +88,14 @@ border-radius: 10px;
 }
 .logo-redes{
     font-size: 15px;
+
 }
 .footer{
-    margin-left: 0%;
+   flex-direction: row-reverse;
     background-color:map-get($colores , "color-mq-mobiled" ); 
+}
+.footer-redes{
+    width: 150px;
 }
 .btn-outline-secondary {
     margin-left: 30px; 

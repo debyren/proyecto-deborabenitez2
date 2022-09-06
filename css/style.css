@@ -77,12 +77,13 @@ footer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 200px; }
+  width: 150px; }
 
 .logo-redes {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  width: 150px; }
 
 .logos {
   display: flex;
@@ -146,7 +147,9 @@ footer {
   .logo-redes {
     font-size: 15px; }
   .footer {
-    margin-left: 0%;
+    flex-direction: row-reverse;
     background-color: #96b9ae; }
+  .footer-redes {
+    width: 150px; }
   .btn-outline-secondary {
     margin-left: 30px; } }
