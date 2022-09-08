@@ -36,11 +36,7 @@ border-radius: 10px;
     .bg-beige{
         background-color:  map-get($colores, "color-nav" );
         }
-    .img-carousel{
-        margin-top: 30px;
-        margin-left: 150px;
-        @include sizes(550px, 450px);
-    }
+
     .footer{
         background-color: map-get($colores, "color-footer" );
         
@@ -51,11 +47,7 @@ border-radius: 10px;
 .bg-beige{
     background-color:  map-get($colores, "color-nav" );
     }
-.img-carousel{
-    margin-top: 30px;
-    margin-left: 150px;
-    @include sizes(450px, 350px);
-}
+
 .footer{
     background-color: map-get($colores, "color-footer" );
     
@@ -65,16 +57,10 @@ border-radius: 10px;
 @media screen and (min-width:480px)and(max-width:550px){
 .bg-beige{
     background-color:  map-get($colores , "color-mq-mobile" );
+    
     }
-.img-carousel{
-    margin-top: 30px;
-    margin-left: 5%;
-    width: 380px;
-    height: 330px;
-}
-
-#cards{
- padding-left: 12%;
+body{
+    background-color: black;
 }
 
 #marcas img{

@@ -10,11 +10,6 @@ body {
   font-size: large;
   background: linear-gradient(to right, white 0%, #dbdbdb 42%, #d1d1d1 51%, #fefefe 100%); }
 
-.img-carousel {
-  width: 802px;
-  height: 525px;
-  margin-left: 280px; }
-
 .card {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 400ms ease; }
@@ -109,35 +104,20 @@ footer {
 @media screen and (max-width: 990px) {
   .bg-beige, .btn-color {
     background-color: #D0E8E1; }
-  .img-carousel {
-    margin-top: 30px;
-    margin-left: 150px;
-    height: 450px;
-    width: 550px; }
   .footer {
     background-color: #B1D9CD; } }
 
 @media screen and (max-width: 768px) {
   .bg-beige, .btn-color {
     background-color: #D0E8E1; }
-  .img-carousel {
-    margin-top: 30px;
-    margin-left: 150px;
-    height: 350px;
-    width: 450px; }
   .footer {
     background-color: #B1D9CD; } }
 
 @media screen and (min-width: 480px) and (max-width: 550px) {
   .bg-beige, .btn-color {
     background-color: #9eb5ae; }
-  .img-carousel {
-    margin-top: 30px;
-    margin-left: 5%;
-    width: 380px;
-    height: 330px; }
-  #cards {
-    padding-left: 12%; }
+  body {
+    background-color: black; }
   #marcas img {
     width: 50px;
     height: 50px; }
