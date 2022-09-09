@@ -113,7 +113,7 @@ footer {
   .footer {
     background-color: #B1D9CD; } }
 
-@media screen and (min-width: 480px) and (max-width: 550px) {
+@media screen and (min-width: 460px) and (max-width: 550px) {
   .bg-beige, .btn-color {
     background-color: #9eb5ae; }
   body {
@@ -125,7 +125,7 @@ footer {
   .img-carousel-qs {
     margin-top: 20px;
     width: 400px;
-    height: auto; }
+    height: 250px; }
   #marcas img {
     width: 50px;
     height: 50px; }
