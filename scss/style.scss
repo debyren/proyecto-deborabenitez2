@@ -18,7 +18,12 @@
 .parrafos-qs{
     padding: 30px;
 }
-
+.h2-info{
+    color: rgb(180, 4, 4)
+}
+.iframe-qs{
+    @include sizes(600px, 450px);
+}
 /* Styles medios de pago */
 
 .title-mp{
@@ -54,7 +59,7 @@ border-radius: 10px;
 }
 }
 
-@media screen and (max-width:480px){
+@media screen and (min-width:480px)and(max-width:620px){
 .bg-beige{
     background-color:  map-get($colores , "color-mq-mobile" );
     
@@ -71,6 +76,9 @@ body{
     margin-top: 20px;
     width: 400px;
     height: 250px;
+}
+.iframe-qs{
+    @include sizes(350px, 300px);
 }
 #marcas img{
     width: 50px;
