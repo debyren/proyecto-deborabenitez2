@@ -120,7 +120,7 @@ footer {
   .footer {
     background-color: #B1D9CD; } }
 
-@media screen and (min-width: 480px) and (max-width: 620px) {
+@media screen and (max-width: 480px) {
   .bg-beige, .btn-color {
     background-color: #9eb5ae; }
   body {
