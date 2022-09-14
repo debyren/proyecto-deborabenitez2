@@ -87,8 +87,12 @@ body{
 }
 .imagen-mp{
     width: 280px;
-    height: 150;
+    height: 150px;
 }
+.img-error{
+    @include sizes(300px, 250px)
+}
+
 .logo-redes{
     text-align: center;
     font-size: 15px;

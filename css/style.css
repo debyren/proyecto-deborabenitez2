@@ -141,7 +141,10 @@ footer {
     height: 50px; }
   .imagen-mp {
     width: 280px;
-    height: 150; }
+    height: 150px; }
+  .img-error {
+    height: 250px;
+    width: 300px; }
   .logo-redes {
     text-align: center;
     font-size: 15px; }
