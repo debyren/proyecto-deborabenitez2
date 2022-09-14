@@ -90,17 +90,24 @@ body{
     height: 150;
 }
 .logo-redes{
+    text-align: center;
     font-size: 15px;
 
 }
 .footer{
-   flex-direction: row-reverse;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
     background-color:map-get($colores , "color-mq-mobiled" ); 
 }
+ul{
+    padding-left: 0%;
+}
+li{
+    text-align: center;
+        } 
 .footer-redes{
     width: 150px;
 }
-.btn-outline-secondary {
-    margin-left: 30px; 
-}
+
 }
