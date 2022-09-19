@@ -52,17 +52,17 @@
       </nav>
 </header>
 <main>
-        <!-- CARRUSEL DE IMAGENES -->
+        <!-- CARRUSEL DE IMAGENES DE PORTADA -->
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active d-flex justify-content-center">
-      <img src="./Imagenes/0.jpg" class="img-carousel rounded-4"  alt="imagendeportada">
+      <img src="./Imagenes/0.jpg" class="img-carousel rounded-4"  alt="imagendeportadauno">
     </div>
     <div class="carousel-item d-flex justify-content-center">
-      <img src="./Imagenes/15.jpg" class="img-carousel rounded-4" alt="imagendeportada">
+      <img src="./Imagenes/15.jpg" class="img-carousel rounded-4" alt="imagendeportadados">
     </div>
     <div class="carousel-item d-flex justify-content-center">
-      <img src="./Imagenes/6.jpg" class="img-carousel rounded-4"  alt="imagendeportada">
+      <img src="./Imagenes/6.jpg" class="img-carousel rounded-4"  alt="imagendeportadatres">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -215,7 +215,7 @@
 
             <!-- PIE DE PAGINA -->
             
-<footer class="footer p-3">
+<footer class="footer p-3 d-flex justify-content-evenly"  >
 
   <ul>
   <li><a href="./index.html">Inicio</a></li>
@@ -224,22 +224,25 @@
   <li><a href="./pages/medios_de_pago.html">Medios de Pago</a></li>
   <li><a href="./pages/contacto.html">Contacto</a></li>
   </ul>
-  <div class="footer-redes">
+  <div class="footer-redes text-center d-flex flex-column flex-wrap  ">
     Suscribite a nuestro Newsletter
     y recibi los ultimos ingresos de la temporada
 
     <div class="input-group mb-3">
     <input type="text" class="form-control" placeholder="Ingrese su email" aria-label="Ingrese su email" aria-describedby="button-addon2">
     <button class="btn btn-outline-secondary" type="button" id="button-addon2">Enviar</button>
+    <div>
     <h6 class="mt-4">Desarrolado por DBR</h6>
     <h6>| todos los derechos reservados |</h6>
+  </div>
     </div>
   </div>
   
   </div>
-  <div class="logo-redes">
+  <div class="logo-redes text-center d-flex flex-column">
     Seguinos en nuestras redes 
-  <div class="logos"> 
+    
+  <div class="logos d-flex  justify-content-evenly"> 
        <a href="https://es-la.facebook.com/" target="_blank"><i class="bi bi-facebook fs-4"></i></a>     
        <a href="https://instagram.com/suarez_home?igshid=YmMyMTA2M2Y=" target="_blank"><i class="bi bi-instagram fs-4"></i> </a>  
        <a href="https://api.whatsapp.com/send?phone=541122828166" target="_blank"><i class="bi bi-whatsapp fs-4"></i></a>         
@@ -247,12 +250,13 @@
   <a href="#arriba" class="btn btn-outline-secondary btn-sm  fw-bold">Volver arriba</a>    
   
   
-
+      <!-- BOTON FLOTANTE WHATSAPP -->
   <div class="btn-whatsapp">
     <a href="https://api.whatsapp.com/send?phone=541122828166&text=%20Hola%2C%20me%20interesa%20saber%20m%C3%A1s%20de%20" target="_blank">
-    <img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="">
+    <img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="logo-whatsapp">
     </a>
-    </div>        
+    </div> 
+ 
 </footer>
 
             <!-- LIBRERIAS -->
